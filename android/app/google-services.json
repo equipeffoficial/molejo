@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "349650930863",
+    "project_id": "molejo-c70a2",
+    "storage_bucket": "molejo-c70a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349650930863:android:7e84b437f9181b84ae185a",
+        "android_client_info": {
+          "package_name": "com.osiris.molejo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349650930863-4pkr7lrhlt1am56hl8iaa781tosto4bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm9qySl3Scmqicu5vlNke2ZjfjXlp42Bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349650930863-4pkr7lrhlt1am56hl8iaa781tosto4bi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

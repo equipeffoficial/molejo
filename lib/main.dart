@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:molejo/screens/login_screen.dart';
+import 'package:molejo/screens/base_screen/base_screen.dart';
+import 'package:molejo/screens/login_screen/login_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
 
         primaryColor: Colors.deepPurple,
-        scaffoldBackgroundColor: Colors.black38,
+        scaffoldBackgroundColor: Colors.white,
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
@@ -25,7 +26,15 @@ class MyApp extends StatelessWidget {
           case '/login' :
         return MaterialPageRoute(
             builder: (_) => LoginScreen());
+
+          case '/':
+          default:
+            return MaterialPageRoute(
+                builder: (_) => LoginScreen(),
+                settings: settings);
         }
+
+
       },
     );
   }
